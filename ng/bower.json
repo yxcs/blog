@@ -1,0 +1,51 @@
+{
+  "name": "angular",
+  "version": "0.0.1",
+  "authors": [
+    "keqi"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular-animate": "^1.6.1",
+    "angular-ui-router": "^0.3.2",
+    "angular-route": "^1.6.1",
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "angular-bootstrap-switch": "^0.5.1",
+    "angular-cookies": "^1.6.1",
+    "angular-loading-bar": "^0.9.0",
+    "angular-resource": "^1.6.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "ng-file-upload": "^12.2.13",
+    "oclazyload": "^1.0.9",
+    "angulartics": "^1.3.0",
+    "angular-sanitize": "^1.6.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    }
+  }
+}

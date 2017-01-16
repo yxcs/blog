@@ -1,0 +1,5 @@
+ng/bower_components/*
+ng/node_modules/*
+ng/dist/*
+ng/npm-debug.log/*
+spider/node_modules/*

@@ -1,0 +1,7 @@
+<ul>
+	<li class="col-md-8 col-md-offset-2" ng-repeat="v in data">
+	    <i class="fa fa-list-ul" aria-hidden="true"></i>
+		<a ui-sref="content({id: v.r_id})">{{v.title}}</a>
+		<a ui-sref="user({id: v.a_id})">{{v.nickname}}</a>
+	</li>
+</ul>
